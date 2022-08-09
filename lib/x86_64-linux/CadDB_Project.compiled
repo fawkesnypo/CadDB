@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1574718682"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq &quot;-Fi/home/renan/Área de Trabalho/projetos/CadDB/lib/x86_64-linux&quot; -Fu/usr/lib/lazarus/2.0.6/lcl/units/x86_64-linux/gtk2 -Fu/usr/lib/lazarus/2.0.6/lcl/units/x86_64-linux -Fu/usr/lib/lazarus/2.0.6/components/lazutils/lib/x86_64-linux -Fu/usr/lib/lazarus/2.0.6/packager/units/x86_64-linux &quot;-Fu/home/renan/Área de Trabalho/projetos/CadDB/&quot; &quot;-FU/home/renan/Área de Trabalho/projetos/CadDB/lib/x86_64-linux/&quot; &quot;-FE/home/renan/Área de Trabalho/projetos/CadDB/&quot; &quot;-o/home/renan/Área de Trabalho/projetos/CadDB/CadDB_Project&quot; -dLCL -dLCLgtk2 CadDB_Project.lpr"/>
+</CONFIG>
