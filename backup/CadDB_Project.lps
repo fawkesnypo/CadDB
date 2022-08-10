@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="CadDB_Project.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="122"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="42"/>
+        <CursorPos X="42" Y="51"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="cadastro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CadastroForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="28"/>
+        <CursorPos X="79" Y="55"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="consulta.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ConsutaForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="128" Y="15"/>
+        <UsageCount Value="24"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2309"/>
+        <CursorPos Y="2326"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="cadastro.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="41" Column="69" TopLine="10"/>
+      </Position1>
+      <Position2>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="40" Column="69" TopLine="10"/>
+      </Position2>
+      <Position3>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="39" Column="69" TopLine="10"/>
+      </Position3>
+      <Position4>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="41" Column="69" TopLine="9"/>
+      </Position4>
+      <Position5>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="40" Column="69" TopLine="11"/>
+      </Position5>
+      <Position6>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="41" Column="69" TopLine="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="40" Column="69" TopLine="11"/>
+      </Position7>
+      <Position8>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="39" Column="69" TopLine="10"/>
+      </Position8>
+      <Position9>
+        <Filename Value="main.pas"/>
+        <Caret Line="47" Column="32" TopLine="18"/>
+      </Position9>
+      <Position10>
+        <Filename Value="main.pas"/>
+        <Caret Line="55" Column="32" TopLine="22"/>
+      </Position10>
+      <Position11>
+        <Filename Value="main.pas"/>
+        <Caret Line="50" Column="22" TopLine="29"/>
+      </Position11>
+      <Position12>
+        <Filename Value="main.pas"/>
+        <Caret Line="51" Column="23" TopLine="30"/>
+      </Position12>
+      <Position13>
+        <Filename Value="main.pas"/>
+        <Caret Line="56" Column="23" TopLine="32"/>
+      </Position13>
+      <Position14>
+        <Filename Value="main.pas"/>
+        <Caret Line="54" Column="19" TopLine="29"/>
+      </Position14>
+      <Position15>
+        <Filename Value="main.pas"/>
+        <Caret Line="49" Column="12" TopLine="32"/>
+      </Position15>
+      <Position16>
+        <Filename Value="main.pas"/>
+        <Caret Line="56" Column="13" TopLine="32"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main.pas"/>
+        <Caret Line="57" Column="36" TopLine="33"/>
+      </Position17>
+      <Position18>
+        <Filename Value="main.pas"/>
+        <Caret Line="62" TopLine="35"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main.pas"/>
+        <Caret Line="64" Column="37" TopLine="35"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main.pas"/>
+        <Caret Line="75" Column="29" TopLine="49"/>
+      </Position20>
+      <Position21>
+        <Filename Value="main.pas"/>
+        <Caret Line="59" Column="31" TopLine="44"/>
+      </Position21>
+      <Position22>
+        <Filename Value="main.pas"/>
+        <Caret Line="60" Column="32" TopLine="43"/>
+      </Position22>
+      <Position23>
+        <Filename Value="main.pas"/>
+        <Caret Line="51" Column="32" TopLine="44"/>
+      </Position23>
+      <Position24>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="39" Column="69" TopLine="10"/>
+      </Position24>
+      <Position25>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="41" Column="69" TopLine="10"/>
+      </Position25>
+      <Position26>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="48" Column="3" TopLine="18"/>
+      </Position26>
+      <Position27>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="47" Column="6" TopLine="18"/>
+      </Position27>
+      <Position28>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="48" Column="6" TopLine="18"/>
+      </Position28>
+      <Position29>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="47" Column="6" TopLine="18"/>
+      </Position29>
+      <Position30>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="48" Column="51" TopLine="19"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1" ActiveMode="default">
+        <Mode0 Name="default"/>
+      </Modes>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
