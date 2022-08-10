@@ -1,7 +1,7 @@
 object CadastroForm: TCadastroForm
-  Left = 428
+  Left = 496
   Height = 349
-  Top = 164
+  Top = 150
   Width = 541
   Caption = 'CadDB'
   ClientHeight = 349
@@ -57,6 +57,7 @@ object CadastroForm: TCadastroForm
       ButtonWidth = 23
       NumGlyphs = 1
       MaxLength = 0
+      OnExit = DateEdit1Exit
       TabOrder = 1
       TextHint = '9-9-99'
     end
@@ -105,6 +106,7 @@ object CadastroForm: TCadastroForm
         Caption = 'F'
         Checked = True
         TabOrder = 0
+        TabStop = True
       end
       object RadioButtonM: TRadioButton
         Left = 41
@@ -122,6 +124,7 @@ object CadastroForm: TCadastroForm
       Top = 288
       Width = 75
       Caption = 'Cadastar'
+      OnClick = BtnCadastrarClick
       TabOrder = 4
     end
     object BtnLimpar: TButton

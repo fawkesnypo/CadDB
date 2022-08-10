@@ -1,10 +1,11 @@
 object MainForm: TMainForm
-  Left = 387
-  Height = 349
-  Top = 171
-  Width = 541
+  Left = 562
+  Height = 24
+  Top = 83
+  Width = 242
   Caption = 'CadDB'
   Menu = MainMenu1
+  OnCreate = FormCreate
   LCLVersion = '2.0.6.0'
   object MainMenu1: TMainMenu
     left = 10
@@ -17,7 +18,20 @@ object MainForm: TMainForm
       end
       object MenuItem3: TMenuItem
         Caption = 'Consultar'
+        OnClick = MenuItem3Click
       end
     end
+  end
+  object DBCnn: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    left = 39
+    top = 65510
+  end
+  object DBTr: TSQLTransaction
+    Active = False
+    left = 39
+    top = 65510
   end
 end
