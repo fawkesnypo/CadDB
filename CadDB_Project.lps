@@ -3,7 +3,7 @@
   <ProjectSession>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="5">
+    <Units Count="6">
       <Unit0>
         <Filename Value="CadDB_Project.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -28,7 +28,6 @@
         <ComponentName Value="CadastroForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="8"/>
         <CursorPos X="69" Y="39"/>
@@ -48,6 +47,18 @@
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="consulta.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ConsutaForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="3"/>
+        <CursorPos X="128" Y="15"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit5>
     </Units>
     <JumpHistory Count="24" HistoryIndex="23">
       <Position1>

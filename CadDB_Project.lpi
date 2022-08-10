@@ -30,7 +30,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="CadDB_Project.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -45,8 +45,15 @@
         <Filename Value="cadastro.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="CadastroForm"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="consulta.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ConsutaForm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

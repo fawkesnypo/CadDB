@@ -1,0 +1,84 @@
+object ConsutaForm: TConsutaForm
+  Left = 470
+  Height = 359
+  Top = 216
+  Width = 541
+  Caption = 'CadDB'
+  ClientHeight = 359
+  ClientWidth = 541
+  LCLVersion = '2.0.6.0'
+  object Panel1: TPanel
+    Left = 16
+    Height = 344
+    Top = 8
+    Width = 512
+    ClientHeight = 344
+    ClientWidth = 512
+    TabOrder = 0
+    object LConsultar: TLabel
+      Left = 8
+      Height = 15
+      Top = 8
+      Width = 65
+      Caption = 'Consultar'
+      ParentColor = False
+    end
+    object LNome: TLabel
+      Left = 8
+      Height = 15
+      Top = 48
+      Width = 41
+      Caption = 'Nome'
+      ParentColor = False
+    end
+    object CbbNome: TComboBox
+      Left = 64
+      Height = 33
+      Top = 40
+      Width = 344
+      ItemHeight = 0
+      TabOrder = 0
+    end
+    object LNascimento: TLabel
+      Left = 10
+      Height = 15
+      Top = 168
+      Width = 81
+      Caption = 'Nascimento'
+      ParentColor = False
+    end
+    object ENascimento: TEdit
+      Left = 104
+      Height = 33
+      Top = 160
+      Width = 136
+      ReadOnly = True
+      TabOrder = 1
+    end
+    object LIdade: TLabel
+      Left = 272
+      Height = 15
+      Top = 168
+      Width = 38
+      Caption = 'Idade'
+      ParentColor = False
+    end
+    object BtnConsultar: TButton
+      Left = 424
+      Height = 25
+      Top = 48
+      Width = 75
+      Caption = 'Consultar'
+      TabOrder = 2
+    end
+    object EIdade: TEdit
+      Left = 320
+      Height = 33
+      Top = 160
+      Width = 80
+      MaxLength = 3
+      ReadOnly = True
+      TabOrder = 3
+    end
+  end
+end
