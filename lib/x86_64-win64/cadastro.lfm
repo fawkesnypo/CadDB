@@ -1,7 +1,7 @@
 object CadastroForm: TCadastroForm
-  Left = 496
+  Left = 416
   Height = 349
-  Top = 150
+  Top = 190
   Width = 541
   Caption = 'CadDB'
   ClientHeight = 349
@@ -133,7 +133,23 @@ object CadastroForm: TCadastroForm
       Top = 288
       Width = 75
       Caption = 'Limpar'
+      OnClick = BtnLimparClick
       TabOrder = 5
     end
+  end
+  object DBCnn: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = DBTr
+    AlwaysUseBigint = False
+    Left = 464
+    Top = 256
+  end
+  object DBTr: TSQLTransaction
+    Active = False
+    Database = DBCnn
+    Left = 492
+    Top = 284
   end
 end
