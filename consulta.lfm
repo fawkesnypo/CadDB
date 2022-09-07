@@ -7,6 +7,7 @@ object ConsutaForm: TConsutaForm
   ClientHeight = 359
   ClientWidth = 541
   OnActivate = FormActivate
+  OnClose = FormClose
   LCLVersion = '2.2.2.0'
   object Panel1: TPanel
     Left = 16
@@ -38,6 +39,7 @@ object ConsutaForm: TConsutaForm
       Top = 48
       Width = 344
       ItemHeight = 15
+      OnChange = CbbNomeChange
       TabOrder = 0
     end
     object LNascimento: TLabel
@@ -49,7 +51,7 @@ object ConsutaForm: TConsutaForm
       ParentColor = False
     end
     object ENascimento: TEdit
-      Left = 104
+      Left = 88
       Height = 23
       Top = 160
       Width = 136
@@ -57,27 +59,35 @@ object ConsutaForm: TConsutaForm
       TabOrder = 1
     end
     object LIdade: TLabel
-      Left = 272
+      Left = 240
       Height = 15
       Top = 168
       Width = 29
       Caption = 'Idade'
       ParentColor = False
     end
-    object BtnConsultar: TButton
-      Left = 424
-      Height = 25
-      Top = 48
-      Width = 75
-      Caption = 'Consultar'
-      TabOrder = 2
-    end
     object EIdade: TEdit
-      Left = 320
+      Left = 280
       Height = 23
       Top = 160
       Width = 80
       MaxLength = 3
+      ReadOnly = True
+      TabOrder = 2
+    end
+    object LSexo: TLabel
+      Left = 374
+      Height = 15
+      Top = 168
+      Width = 25
+      Caption = 'Sexo'
+      ParentColor = False
+    end
+    object ESexo: TEdit
+      Left = 408
+      Height = 23
+      Top = 160
+      Width = 80
       ReadOnly = True
       TabOrder = 3
     end

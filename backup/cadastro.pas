@@ -55,61 +55,42 @@ end;
 procedure TCadastroForm.BtnCadastrarClick(Sender: TObject);
 var
   sexo:string;
+  teste:string;
   database:string;
 begin
      CadastroForm.Deactivate();
      InitializeSqlite('sqlite3.dll');
      database := 'database.db';
      if not FileExists(database) then
-        begin
-          try
-            DBCnn.DatabaseName:=database;
-            DBCnn.Connected:=True;
-            DBTr.DataBase:= DBCnn;
-            DBTr.Active:=True;
-            DBCnn.ExecuteDirect(
-              'CREATE TABLE usuario (  '+
-              '     id INTEGER PRIMARY KEY AUTOINCREMENT,'+
-              '     nome VARCHAR (30),'+
-              '     dtNascimento  DATE,'+
-              '     idade INTEGER,'+
-              '     sexo VARCHAR (1)'+
-              ' ); '
-            );
-
-            DBTr.CommitRetaining;
-          except
-            ShowMessage('Não foi possível criar o database: '+ database);
-          end
-        end
+        ShowMessage('A base de dados não foi encontrada!')
      else
        DBCnn.DatabaseName:=database;
        DBCnn.Connected:=True;
 
-     if (Length(ENome.Text) > 3) and (Length(DateEdit1.Text) > 6) and (Length(EIdade.Text) > 0) then
-        begin
-          if RadioButtonF.Checked then
-             sexo := 'F'
-          else
-              sexo := 'M';
+       if (Length(ENome.Text) > 3) and (Length(DateEdit1.Text) > 6) and (Length(EIdade.Text) > 0) then
+          begin
+            if RadioButtonF.Checked then
+               sexo := 'F'
+            else
+                sexo := 'M';
 
-          DBTr.DataBase:= DBCnn;
-          DBTr.Active:=True;
-          DBCnn.ExecuteDirect(
-          'INSERT INTO usuario(nome,dtNascimento,idade,sexo)'+
-          'VALUES ('+QuotedStr(ENome.Text)+','+DateEdit1.Text+','+EIdade.Text+','+QuotedStr(sexo)+');'
-          );
+            DBTr.DataBase:= DBCnn;
+            DBTr.Active:=True;
+            DBCnn.ExecuteDirect(
+            'INSERT INTO usuario(nome,dtNascimento,idade,sexo)'+
+            'VALUES ('+QuotedStr(ENome.Text)+','+QuotedStr(DateEdit1.Text)+','+EIdade.Text+','+QuotedStr(sexo)+');'
+            );
 
-          DBTr.CommitRetaining;
+            DBTr.CommitRetaining;
 
-          BtnLimparClick(Sender);
-          ShowMessage('Cadastro realizado!')
-        end
-     else
+            BtnLimparClick(Sender);
+            ShowMessage('Cadastro realizado!')
+          end
+       else
          ShowMessage('É necessário preencher todos os campos');
 
      CadastroForm.Activate;
-     DBCnn.Connected:=False;
+     DBCnn.Close();
 end;
 
 procedure TCadastroForm.BtnLimparClick(Sender: TObject);

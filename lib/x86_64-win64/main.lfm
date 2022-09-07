@@ -5,6 +5,7 @@ object MainForm: TMainForm
   Width = 242
   Caption = 'CadDB'
   Menu = MainMenu1
+  OnActivate = FormActivate
   LCLVersion = '2.2.2.0'
   object MainMenu1: TMainMenu
     Left = 10
@@ -20,5 +21,18 @@ object MainForm: TMainForm
         OnClick = MenuItem3Click
       end
     end
+  end
+  object DBTr: TSQLTransaction
+    Active = False
+    Database = DBCnn
+    Left = 214
+  end
+  object DBCnn: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = DBTr
+    AlwaysUseBigint = False
+    Left = 214
   end
 end
