@@ -5,7 +5,7 @@ unit cadastro;
 interface
 
 uses
-  Classes, SysUtils, sqldb, sqlite3conn, IBConnection, Forms, Controls,
+  Classes, SysUtils, SQLDB, SQLite3Conn, IBConnection, Forms, Controls,
   Graphics, Dialogs, Menus, ExtCtrls, StdCtrls, EditBtn, DBCtrls,dateutils;
 
 type
@@ -27,7 +27,8 @@ type
     RadioButtonM: TRadioButton;
     RadioGroup1: TRadioGroup;
     procedure BtnCadastrarClick(Sender: TObject);
-    procedure DateEdit1Exit(Sender: TObject);
+    procedure DateEdit1Change(Sender: TObject);
+
   private
 
   public
@@ -43,22 +44,29 @@ implementation
 
 { TCadastroForm }
 
-procedure TCadastroForm.DateEdit1Exit(Sender: TObject);
+procedure TCadastroForm.DateEdit1Change(Sender: TObject);
 begin
-       EIdade.Text:=Trunc(dateutils.YearsBetween(Now,DateEdit1.Date)).toString;
+  EIdade.Text:=Trunc(dateutils.YearsBetween(Now,DateEdit1.Date)).toString;
 end;
 
 procedure TCadastroForm.BtnCadastrarClick(Sender: TObject);
+var
+  sexo:string;
 begin
 
-     if (ENome.GetTextLen() > 3) and (Length(DateEdit1.GetTextLen() > 6) and (EIdade.GetTextLen() > 0) and (RadioButtonF.IsEnabled or RadioButtonM.IsEnabled) then
+     if (Length(ENome.Text) > 3) and (Length(DateEdit1.Text) > 6) and (Length(EIdade.Text) > 0) then
+        begin
+          if RadioButtonF.IsEnabled then
+             sexo := 'F'
+          else
+              sexo := 'M';
+          //DBCnm.ExecuteDirect(
+          //'INSERT INTO usuario(nome,dtNascimento,idade,sexo)'+
+          //'VALUES('+ ENome.Text+','+DateEdit1.Text+','+EIdade.Text+','+ sexo
+          //);
 
-        //main.TMainForm.DBCnn.ExecuteDirect(
-        //'INSERT INTO usuario(nome,dtNascimento,idade,sexo)'+
-        //'VALUES('+
-        //);
-
-        ShowMessage('Okay')
+          ShowMessage('Okay')
+        end
      else
          ShowMessage('É necessário preencher todos os campos');
 end;

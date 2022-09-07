@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, cadastro,
-  consulta, sqlite3conn, sqldb,sqlite3dyn;
+  consulta, SQLite3Conn, SQLDB,SQLite3Dyn;
 
 type
 
@@ -17,7 +17,6 @@ type
     MenuItem1: TMenuItem;
     MenuItem2: TMenuItem;
     MenuItem3: TMenuItem;
-    DBCnn: TSQLite3Connection;
     DBTr: TSQLTransaction;
     procedure FormCreate(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
@@ -25,7 +24,7 @@ type
   private
 
   public
-
+    DBCnn: TSQLite3Connection;
   end;
 
 var
@@ -48,7 +47,7 @@ procedure TMainForm.FormCreate(Sender: TObject);
 var
   database:string;
 begin
-     InitializeSqlite('libsqlite3.so.0');
+     InitializeSqlite('sqlite3.dll');
      database := 'database.db';
      if not FileExists(database) then
         begin

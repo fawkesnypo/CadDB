@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="11"/>
+    <Version Value="12"/>
     <BuildModes Active="Default"/>
-    <Units Count="6">
+    <Units Count="11">
       <Unit0>
         <Filename Value="CadDB_Project.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="122"/>
-        <UsageCount Value="24"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="29"/>
       </Unit0>
       <Unit1>
         <Filename Value="main.pas"/>
@@ -18,11 +17,10 @@
         <ComponentName Value="MainForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="42"/>
-        <CursorPos X="42" Y="51"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="8"/>
+        <CursorPos X="32" Y="14"/>
+        <UsageCount Value="29"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="cadastro.pas"/>
@@ -30,13 +28,11 @@
         <ComponentName Value="CadastroForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="28"/>
-        <CursorPos X="79" Y="55"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="56"/>
+        <CursorPos X="13" Y="63"/>
+        <UsageCount Value="29"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="consulta.pas"/>
@@ -47,7 +43,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="4"/>
         <CursorPos X="128" Y="15"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="29"/>
       </Unit3>
       <Unit4>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/customform.inc"/>
@@ -62,127 +58,165 @@
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit5>
+      <Unit6>
+        <Filename Value="../../../../../../lazarus/fpc/3.2.2/source/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1959"/>
+        <CursorPos X="14" Y="1965"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../../../lazarus/fpc/3.2.2/source/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="193"/>
+        <CursorPos X="8" Y="201"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../../../lazarus/lcl/include/wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8320"/>
+        <CursorPos Y="8328"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="utils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="52" Y="14"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../../../../../lazarus/fpc/3.2.2/source/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="584"/>
+        <CursorPos X="3" Y="592"/>
+        <UsageCount Value="10"/>
+      </Unit10>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="41" Column="69" TopLine="10"/>
+        <Caret Line="63" TopLine="55"/>
       </Position1>
       <Position2>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="40" Column="69" TopLine="10"/>
+        <Caret Line="65" Column="32" TopLine="57"/>
       </Position2>
       <Position3>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="39" Column="69" TopLine="10"/>
+        <Caret Line="58" TopLine="55"/>
       </Position3>
       <Position4>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="41" Column="69" TopLine="9"/>
+        <Caret Line="60" TopLine="55"/>
       </Position4>
       <Position5>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="40" Column="69" TopLine="11"/>
+        <Caret Line="62" TopLine="55"/>
       </Position5>
       <Position6>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="41" Column="69" TopLine="11"/>
+        <Caret Line="63" TopLine="55"/>
       </Position6>
       <Position7>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="40" Column="69" TopLine="11"/>
+        <Caret Line="70" TopLine="57"/>
       </Position7>
       <Position8>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="39" Column="69" TopLine="10"/>
+        <Caret Line="68" TopLine="57"/>
       </Position8>
       <Position9>
-        <Filename Value="main.pas"/>
-        <Caret Line="47" Column="32" TopLine="18"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="70" TopLine="57"/>
       </Position9>
       <Position10>
-        <Filename Value="main.pas"/>
-        <Caret Line="55" Column="32" TopLine="22"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="69" TopLine="57"/>
       </Position10>
       <Position11>
-        <Filename Value="main.pas"/>
-        <Caret Line="50" Column="22" TopLine="29"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="70" TopLine="57"/>
       </Position11>
       <Position12>
-        <Filename Value="main.pas"/>
-        <Caret Line="51" Column="23" TopLine="30"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="69" TopLine="57"/>
       </Position12>
       <Position13>
-        <Filename Value="main.pas"/>
-        <Caret Line="56" Column="23" TopLine="32"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="70" TopLine="57"/>
       </Position13>
       <Position14>
-        <Filename Value="main.pas"/>
-        <Caret Line="54" Column="19" TopLine="29"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="69" TopLine="57"/>
       </Position14>
       <Position15>
-        <Filename Value="main.pas"/>
-        <Caret Line="49" Column="12" TopLine="32"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="70" TopLine="57"/>
       </Position15>
       <Position16>
-        <Filename Value="main.pas"/>
-        <Caret Line="56" Column="13" TopLine="32"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="69" TopLine="57"/>
       </Position16>
       <Position17>
-        <Filename Value="main.pas"/>
-        <Caret Line="57" Column="36" TopLine="33"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="70" TopLine="57"/>
       </Position17>
       <Position18>
-        <Filename Value="main.pas"/>
-        <Caret Line="62" TopLine="35"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="69" TopLine="57"/>
       </Position18>
       <Position19>
-        <Filename Value="main.pas"/>
-        <Caret Line="64" Column="37" TopLine="35"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="70" TopLine="57"/>
       </Position19>
       <Position20>
-        <Filename Value="main.pas"/>
-        <Caret Line="75" Column="29" TopLine="49"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="69" TopLine="57"/>
       </Position20>
       <Position21>
-        <Filename Value="main.pas"/>
-        <Caret Line="59" Column="31" TopLine="44"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="70" TopLine="57"/>
       </Position21>
       <Position22>
-        <Filename Value="main.pas"/>
-        <Caret Line="60" Column="32" TopLine="43"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="58" Column="20" TopLine="49"/>
       </Position22>
       <Position23>
-        <Filename Value="main.pas"/>
-        <Caret Line="51" Column="32" TopLine="44"/>
+        <Filename Value="cadastro.pas"/>
+        <Caret Line="64" Column="25" TopLine="50"/>
       </Position23>
       <Position24>
-        <Filename Value="cadastro.pas"/>
-        <Caret Line="39" Column="69" TopLine="10"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="43" Column="39" TopLine="33"/>
       </Position24>
       <Position25>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="41" Column="69" TopLine="10"/>
+        <Caret Line="64" Column="15" TopLine="55"/>
       </Position25>
       <Position26>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="48" Column="3" TopLine="18"/>
+        <Caret Line="63" Column="16" TopLine="56"/>
       </Position26>
       <Position27>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="47" Column="6" TopLine="18"/>
+        <Caret Line="55" Column="21" TopLine="47"/>
       </Position27>
       <Position28>
-        <Filename Value="cadastro.pas"/>
-        <Caret Line="48" Column="6" TopLine="18"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="48" Column="23" TopLine="39"/>
       </Position28>
       <Position29>
         <Filename Value="cadastro.pas"/>
-        <Caret Line="47" Column="6" TopLine="18"/>
+        <Caret Line="63" Column="13" TopLine="56"/>
       </Position29>
       <Position30>
-        <Filename Value="cadastro.pas"/>
-        <Caret Line="48" Column="51" TopLine="19"/>
+        <Filename Value="utils.pas"/>
+        <Caret Line="11" Column="12" TopLine="4"/>
       </Position30>
     </JumpHistory>
     <RunParams>
@@ -192,4 +226,15 @@
       </Modes>
     </RunParams>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="cadastro.pas"/>
+        <Line Value="55"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>

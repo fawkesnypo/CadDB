@@ -6,7 +6,7 @@ object CadastroForm: TCadastroForm
   Caption = 'CadDB'
   ClientHeight = 349
   ClientWidth = 541
-  LCLVersion = '2.0.6.0'
+  LCLVersion = '2.2.2.0'
   object Panel1: TPanel
     Left = 16
     Height = 328
@@ -19,7 +19,7 @@ object CadastroForm: TCadastroForm
       Left = 8
       Height = 15
       Top = 8
-      Width = 62
+      Width = 47
       Caption = 'Cadastro'
       ParentColor = False
     end
@@ -27,13 +27,13 @@ object CadastroForm: TCadastroForm
       Left = 16
       Height = 15
       Top = 64
-      Width = 41
+      Width = 33
       Caption = 'Nome'
       ParentColor = False
     end
     object ENome: TEdit
       Left = 72
-      Height = 33
+      Height = 23
       Top = 56
       Width = 424
       TabOrder = 0
@@ -43,13 +43,13 @@ object CadastroForm: TCadastroForm
       Left = 16
       Height = 15
       Top = 120
-      Width = 81
+      Width = 64
       Caption = 'Nascimento'
       ParentColor = False
     end
     object DateEdit1: TDateEdit
       Left = 104
-      Height = 33
+      Height = 23
       Top = 112
       Width = 136
       CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
@@ -57,7 +57,7 @@ object CadastroForm: TCadastroForm
       ButtonWidth = 23
       NumGlyphs = 1
       MaxLength = 0
-      OnExit = DateEdit1Exit
+      OnChange = DateEdit1Change
       TabOrder = 1
       TextHint = '9-9-99'
     end
@@ -65,13 +65,13 @@ object CadastroForm: TCadastroForm
       Left = 256
       Height = 15
       Top = 120
-      Width = 38
+      Width = 29
       Caption = 'Idade'
       ParentColor = False
     end
     object EIdade: TEdit
       Left = 304
-      Height = 33
+      Height = 23
       Top = 112
       Width = 48
       MaxLength = 3
@@ -93,14 +93,14 @@ object CadastroForm: TCadastroForm
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 1
-      ClientHeight = 30
-      ClientWidth = 86
+      ClientHeight = 28
+      ClientWidth = 84
       TabOrder = 3
       object RadioButtonF: TRadioButton
         Left = 6
-        Height = 30
+        Height = 28
         Top = 0
-        Width = 34
+        Width = 26
         Align = alLeft
         Alignment = taLeftJustify
         Caption = 'F'
@@ -109,10 +109,10 @@ object CadastroForm: TCadastroForm
         TabStop = True
       end
       object RadioButtonM: TRadioButton
-        Left = 41
-        Height = 30
+        Left = 47
+        Height = 28
         Top = 0
-        Width = 39
+        Width = 31
         Align = alRight
         Caption = 'M'
         TabOrder = 1

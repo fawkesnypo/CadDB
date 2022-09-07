@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, cadastro,
-  consulta, sqlite3conn, sqldb,sqlite3dyn;
+  consulta, SQLite3Conn, SQLDB,SQLite3Dyn,utils;
 
 type
 
@@ -17,7 +17,6 @@ type
     MenuItem1: TMenuItem;
     MenuItem2: TMenuItem;
     MenuItem3: TMenuItem;
-    DBCnn: TSQLite3Connection;
     DBTr: TSQLTransaction;
     procedure FormCreate(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
@@ -25,7 +24,7 @@ type
   private
 
   public
-
+    DBCnn: TSQLite3Connection;
   end;
 
 var
@@ -45,34 +44,8 @@ begin
 end;
 
 procedure TMainForm.FormCreate(Sender: TObject);
-var
-  database:string;
 begin
-     InitializeSqlite('libsqlite3.so.0');
-     database := 'database.db';
-     if not FileExists(database) then
-        begin
-          try
-            DBCnn.DatabaseName:=database;
-            DBCnn.Connected:=True;
-
-            DBTr.DataBase:= DBCnn;
-            DBTr.Active:=True;
-            DBCnn.ExecuteDirect(
-              'CREATE TABLE usuario (  '+
-              '     id INTEGER PRIMARY KEY AUTOINCREMENT,'+
-              '     nome VARCHAR (30),'+
-              '     dtNascimento  DATE,'+
-              '     idade INTEGER '+
-              '     sexo VARCHAR (1)'+
-              ' ); '
-            );
-
-            DBTr.CommitRetaining;
-          except
-            ShowMessage('Não foi possível criar o database: '+ database);
-          end;
-        end;
+    CreateConn(DBCnn);
 end;
 
 procedure TMainForm.MenuItem3Click(Sender: TObject);
