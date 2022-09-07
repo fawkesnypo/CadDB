@@ -6,25 +6,25 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, cadastro,
-  consulta, SQLite3Conn, SQLDB,SQLite3Dyn;
+  consulta,SQLDB, SQLite3Conn,SQLite3Dyn;
 
 type
 
   { TMainForm }
 
   TMainForm = class(TForm)
+    DBTr: TSQLTransaction;
     MainMenu1: TMainMenu;
     MenuItem1: TMenuItem;
     MenuItem2: TMenuItem;
     MenuItem3: TMenuItem;
-    DBTr: TSQLTransaction;
-    procedure FormCreate(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
     procedure MenuItem3Click(Sender: TObject);
   private
 
   public
-    DBCnn: TSQLite3Connection;
+
   end;
 
 var
@@ -43,7 +43,7 @@ begin
      else cadastro.CadastroForm.Show();
 end;
 
-procedure TMainForm.FormCreate(Sender: TObject);
+procedure TMainForm.FormActivate(Sender: TObject);
 var
   database:string;
 begin
@@ -54,15 +54,14 @@ begin
           try
             DBCnn.DatabaseName:=database;
             DBCnn.Connected:=True;
-
             DBTr.DataBase:= DBCnn;
             DBTr.Active:=True;
             DBCnn.ExecuteDirect(
               'CREATE TABLE usuario (  '+
               '     id INTEGER PRIMARY KEY AUTOINCREMENT,'+
               '     nome VARCHAR (30),'+
-              '     dtNascimento  DATE,'+
-              '     idade INTEGER '+
+              '     dtNascimento  VARCHAR(30),'+
+              '     idade INTEGER,'+
               '     sexo VARCHAR (1)'+
               ' ); '
             );
@@ -70,7 +69,7 @@ begin
             DBTr.CommitRetaining;
           except
             ShowMessage('Não foi possível criar o database: '+ database);
-          end;
+          end
         end;
 end;
 
