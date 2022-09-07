@@ -49,7 +49,13 @@ implementation
 
 procedure TCadastroForm.DateEdit1Change(Sender: TObject);
 begin
-  EIdade.Text:=Trunc(dateutils.YearsBetween(Now,DateEdit1.Date)).toString;
+     if Now < DateEdit1.Date then
+        begin
+          DateEdit1.Clear();
+          ShowMessage('A data de nascimento não pode ser uma data futura!');
+        end
+     else
+         EIdade.Text:=Trunc(dateutils.YearsBetween(Now,DateEdit1.Date)).toString;
 end;
 
 procedure TCadastroForm.BtnCadastrarClick(Sender: TObject);
