@@ -94,7 +94,7 @@ begin
        else
          ShowMessage('É necessário preencher todos os campos');
 
-     CadastroForm.Activate;
+     CadastroForm.Activate();
      DBCnn.Close();
 end;
 

@@ -97,11 +97,11 @@ begin
          DBCnn.Connected:=True;
 
          query := TSQLQuery.Create(nil);
-         query.SQL.Text:='SELECT dtNascimento,idade,sexo From usuario where nome ='+QuotedStr(CbbNome.Text)+';';
+         query.SQL.Text:='SELECT dtNascimento,idade,sexo FROM usuario where nome ='+QuotedStr(CbbNome.Text)+';';
          query.DataBase := DBCnn;
          query.Open;
 
-         ENascimento.Text:= query.FieldByName('dtNascimento');
+         ENascimento.Text:= query.FieldByName('dtNascimento').AsString;
          EIdade.Text:= query.FieldByName('idade').AsString;
          ESexo.Text:= query.FieldByName('sexo').AsString;
 

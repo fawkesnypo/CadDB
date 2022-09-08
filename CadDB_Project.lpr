@@ -7,7 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, main, cadastro, consulta
+  Forms, main, cadastro, consulta, editar
   { you can add units after this };
 
 {$R *.res}
@@ -19,6 +19,7 @@ begin
   Application.CreateForm(TMainForm, MainForm);
   Application.CreateForm(TCadastroForm, CadastroForm);
   Application.CreateForm(TConsutaForm, ConsutaForm);
+  Application.CreateForm(TEditarRegistros, EditarRegistros);
   Application.Run;
 end.
 
