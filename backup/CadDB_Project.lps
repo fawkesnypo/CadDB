@@ -56,116 +56,10 @@
         <UsageCount Value="31"/>
       </Unit4>
       <Unit5>
-        <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/customform.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="2309"/>
-        <CursorPos Y="2326"/>
-        <UsageCount Value="10"/>
-      </Unit5>
-      <Unit6>
-        <Filename Value="cadastro.lfm"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
-        <DefaultSyntaxHighlighter Value="LFM"/>
-      </Unit6>
-      <Unit7>
-        <Filename Value="../../../../../../lazarus/fpc/3.2.2/source/rtl/objpas/classes/classesh.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="2303"/>
-        <CursorPos X="21" Y="735"/>
-        <UsageCount Value="10"/>
-      </Unit7>
-      <Unit8>
-        <Filename Value="../../../../../../lazarus/fpc/3.2.2/source/rtl/inc/objpash.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="193"/>
-        <CursorPos X="8" Y="201"/>
-        <UsageCount Value="10"/>
-      </Unit8>
-      <Unit9>
-        <Filename Value="../../../../../../lazarus/lcl/include/wincontrol.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="8390"/>
-        <CursorPos Y="8397"/>
-        <UsageCount Value="10"/>
-      </Unit9>
-      <Unit10>
-        <Filename Value="../../../../../../lazarus/fpc/3.2.2/source/rtl/inc/systemh.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="584"/>
-        <CursorPos X="3" Y="592"/>
-        <UsageCount Value="10"/>
-      </Unit10>
-      <Unit11>
-        <Filename Value="../../../../../../lazarus/lcl/forms.pp"/>
-        <UnitName Value="Forms"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="549"/>
-        <CursorPos X="15" Y="565"/>
-        <UsageCount Value="10"/>
-      </Unit11>
-      <Unit12>
-        <Filename Value="../../../../../../lazarus/lcl/include/control.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="2951"/>
-        <CursorPos Y="2959"/>
-        <UsageCount Value="10"/>
-      </Unit12>
-      <Unit13>
-        <Filename Value="../../../../../../lazarus/lcl/include/buttoncontrol.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="13"/>
-        <CursorPos Y="22"/>
-        <UsageCount Value="10"/>
-      </Unit13>
-      <Unit14>
-        <Filename Value="../../../../../../lazarus/lcl/include/buttons.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="163"/>
-        <CursorPos Y="170"/>
-        <UsageCount Value="10"/>
-      </Unit14>
-      <Unit15>
-        <Filename Value="../../../../../../lazarus/lcl/lclmessageglue.pas"/>
-        <UnitName Value="LCLMessageGlue"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="111"/>
-        <CursorPos Y="123"/>
-        <UsageCount Value="10"/>
-      </Unit15>
-      <Unit16>
-        <Filename Value="../../../../../../lazarus/lcl/interfaces/win32/win32callback.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="2765"/>
-        <CursorPos Y="2774"/>
-        <UsageCount Value="10"/>
-      </Unit16>
-      <Unit17>
-        <Filename Value="../../../../../../lazarus/lcl/interfaces/win32/win32wsstdctrls.pp"/>
-        <UnitName Value="Win32WSStdCtrls"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="1906"/>
-        <CursorPos Y="1913"/>
-        <UsageCount Value="10"/>
-      </Unit17>
-      <Unit18>
-        <Filename Value="../../../../../../lazarus/lcl/interfaces/win32/win32object.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="424"/>
-        <CursorPos Y="432"/>
-        <UsageCount Value="10"/>
-      </Unit18>
-      <Unit19>
-        <Filename Value="../../../../../../lazarus/lcl/include/application.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="1375"/>
-        <CursorPos Y="1383"/>
-        <UsageCount Value="10"/>
-      </Unit19>
-      <Unit20>
         <Filename Value="editar.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="EditarRegistros"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
@@ -174,6 +68,113 @@
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="/usr/lib/lazarus/2.0.6/lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2309"/>
+        <CursorPos Y="2326"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="cadastro.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../../../lazarus/fpc/3.2.2/source/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2303"/>
+        <CursorPos X="21" Y="735"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../../../../lazarus/fpc/3.2.2/source/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="193"/>
+        <CursorPos X="8" Y="201"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../../../../../lazarus/lcl/include/wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8390"/>
+        <CursorPos Y="8397"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../../../../../lazarus/fpc/3.2.2/source/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="584"/>
+        <CursorPos X="3" Y="592"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../../../../../lazarus/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="549"/>
+        <CursorPos X="15" Y="565"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../../../../../lazarus/lcl/include/control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2951"/>
+        <CursorPos Y="2959"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../../../../../lazarus/lcl/include/buttoncontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../../../../../lazarus/lcl/include/buttons.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="163"/>
+        <CursorPos Y="170"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../../../../../../lazarus/lcl/lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="111"/>
+        <CursorPos Y="123"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../../../../../../lazarus/lcl/interfaces/win32/win32callback.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2765"/>
+        <CursorPos Y="2774"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../../../../../../lazarus/lcl/interfaces/win32/win32wsstdctrls.pp"/>
+        <UnitName Value="Win32WSStdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1906"/>
+        <CursorPos Y="1913"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../../../../../../lazarus/lcl/interfaces/win32/win32object.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="424"/>
+        <CursorPos Y="432"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../../../../../../lazarus/lcl/include/application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1375"/>
+        <CursorPos Y="1383"/>
+        <UsageCount Value="10"/>
       </Unit20>
       <Unit21>
         <Filename Value="../../../../../../lazarus/lcl/editbtn.pas"/>
@@ -182,7 +183,7 @@
         <UsageCount Value="10"/>
       </Unit21>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="28" HistoryIndex="27">
       <Position1>
         <Filename Value="editar.pas"/>
         <Caret Line="167" Column="14" TopLine="156"/>
@@ -205,71 +206,71 @@
       </Position5>
       <Position6>
         <Filename Value="editar.pas"/>
-        <Caret Line="150" Column="25" TopLine="185"/>
+        <Caret Line="21" Column="16" TopLine="21"/>
       </Position6>
       <Position7>
-        <Filename Value="editar.pas"/>
-        <Caret Line="21" Column="16" TopLine="21"/>
-      </Position7>
-      <Position8>
         <Filename Value="cadastro.pas"/>
         <Caret Line="9" Column="66"/>
+      </Position7>
+      <Position8>
+        <Filename Value="editar.pas"/>
+        <Caret Line="8" Column="40"/>
       </Position8>
       <Position9>
         <Filename Value="editar.pas"/>
-        <Caret Line="8" Column="40"/>
+        <Caret Line="21" Column="16" TopLine="14"/>
       </Position9>
       <Position10>
         <Filename Value="editar.pas"/>
-        <Caret Line="21" Column="16" TopLine="14"/>
+        <Caret Line="115" Column="30" TopLine="101"/>
       </Position10>
       <Position11>
         <Filename Value="editar.pas"/>
-        <Caret Line="115" Column="30" TopLine="101"/>
+        <Caret Line="21" Column="14" TopLine="14"/>
       </Position11>
       <Position12>
         <Filename Value="editar.pas"/>
-        <Caret Line="21" Column="14" TopLine="14"/>
+        <Caret Line="82" Column="50" TopLine="80"/>
       </Position12>
       <Position13>
         <Filename Value="editar.pas"/>
-        <Caret Line="8" Column="5" TopLine="14"/>
+        <Caret Line="142" Column="61" TopLine="136"/>
       </Position13>
       <Position14>
         <Filename Value="editar.pas"/>
-        <Caret Line="82" Column="50" TopLine="80"/>
+        <Caret Line="197" Column="13" TopLine="190"/>
       </Position14>
       <Position15>
         <Filename Value="editar.pas"/>
-        <Caret Line="142" Column="61" TopLine="136"/>
+        <Caret Line="143" Column="13" TopLine="137"/>
       </Position15>
       <Position16>
         <Filename Value="editar.pas"/>
-        <Caret Line="197" Column="13" TopLine="190"/>
+        <Caret Line="178" Column="11" TopLine="172"/>
       </Position16>
       <Position17>
         <Filename Value="editar.pas"/>
-        <Caret Line="143" Column="13" TopLine="137"/>
+        <Caret Line="143" Column="13" TopLine="129"/>
       </Position17>
       <Position18>
-        <Filename Value="editar.pas"/>
-        <Caret Line="178" Column="11" TopLine="172"/>
-      </Position18>
-      <Position19>
-        <Filename Value="editar.pas"/>
-        <Caret Line="143" Column="13" TopLine="129"/>
-      </Position19>
-      <Position20>
         <Filename Value="main.pas"/>
         <Caret Line="64" Column="35" TopLine="57"/>
-      </Position20>
-      <Position21>
+      </Position18>
+      <Position19>
         <Filename Value="main.pas"/>
         <Caret Line="66" Column="35" TopLine="59"/>
+      </Position19>
+      <Position20>
+        <Filename Value="editar.pas"/>
+        <Caret Line="144" Column="24" TopLine="144"/>
+      </Position20>
+      <Position21>
+        <Filename Value="editar.pas"/>
+        <Caret Line="199" TopLine="192"/>
       </Position21>
       <Position22>
         <Filename Value="editar.pas"/>
-        <Caret Line="144" Column="24" TopLine="144"/>
+        <Caret Line="201" Column="93" TopLine="192"/>
       </Position22>
       <Position23>
         <Filename Value="editar.pas"/>
@@ -277,32 +278,24 @@
       </Position23>
       <Position24>
         <Filename Value="editar.pas"/>
-        <Caret Line="201" Column="93" TopLine="192"/>
+        <Caret Line="221" TopLine="208"/>
       </Position24>
       <Position25>
         <Filename Value="editar.pas"/>
-        <Caret Line="199" TopLine="192"/>
+        <Caret Line="195" Column="15" TopLine="187"/>
       </Position25>
       <Position26>
         <Filename Value="editar.pas"/>
-        <Caret Line="221" TopLine="208"/>
+        <Caret Line="202" Column="23" TopLine="190"/>
       </Position26>
       <Position27>
         <Filename Value="editar.pas"/>
-        <Caret Line="195" Column="15" TopLine="187"/>
+        <Caret Line="195" Column="42" TopLine="189"/>
       </Position27>
       <Position28>
         <Filename Value="editar.pas"/>
-        <Caret Line="202" Column="23" TopLine="190"/>
-      </Position28>
-      <Position29>
-        <Filename Value="editar.pas"/>
-        <Caret Line="195" Column="42" TopLine="189"/>
-      </Position29>
-      <Position30>
-        <Filename Value="editar.pas"/>
         <Caret Line="233" Column="194" TopLine="229"/>
-      </Position30>
+      </Position28>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
@@ -310,5 +303,13 @@
         <Mode0 Name="default"/>
       </Modes>
     </RunParams>
+    <HistoryLists Count="3">
+      <List0 Name="WorkingDirectory" Type="File" Count="1"/>
+      <List1 Name="LaunchingApplication" Type="File" Count="2">
+        <Item1 Value="C:\Windows\system32\cmd.exe \C ${TargetCmdLine}"/>
+        <Item2 Value="C:\Windows\system32\cmd.exe /C ${TargetCmdLine}"/>
+      </List1>
+      <List2 Name="CommandLineParameters" Count="1"/>
+    </HistoryLists>
   </ProjectSession>
 </CONFIG>

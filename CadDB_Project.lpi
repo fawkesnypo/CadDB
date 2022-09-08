@@ -77,7 +77,7 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="CadDB_Project"/>
+      <Filename Value="CadDB"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>

@@ -304,12 +304,10 @@
       </Modes>
     </RunParams>
     <HistoryLists Count="3">
-      <List0 Name="WorkingDirectory" Type="File" Count="1"/>
-      <List1 Name="LaunchingApplication" Type="File" Count="2">
+      <List0 Name="LaunchingApplication" Type="File" Count="2">
         <Item1 Value="C:\Windows\system32\cmd.exe \C ${TargetCmdLine}"/>
         <Item2 Value="C:\Windows\system32\cmd.exe /C ${TargetCmdLine}"/>
-      </List1>
-      <List2 Name="CommandLineParameters" Count="1"/>
+      </List0>
     </HistoryLists>
   </ProjectSession>
 </CONFIG>
