@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, cadastro,
-  consulta,SQLDB, SQLite3Conn,SQLite3Dyn;
+  consulta,editar ,SQLDB, SQLite3Conn,SQLite3Dyn;
 
 type
 
@@ -19,9 +19,11 @@ type
     MenuItem1: TMenuItem;
     MenuItem2: TMenuItem;
     MenuItem3: TMenuItem;
+    MenuItem4: TMenuItem;
     procedure FormActivate(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
     procedure MenuItem3Click(Sender: TObject);
+    procedure MenuItem4Click(Sender: TObject);
   private
 
   public
@@ -79,6 +81,13 @@ begin
      if consulta.ConsutaForm.Showing then
         consulta.ConsutaForm.SetFocus
      else consulta.ConsutaForm.Show();
+end;
+
+procedure TMainForm.MenuItem4Click(Sender: TObject);
+begin
+     if editar.EditarRegistros.Showing then
+        editar.EditarRegistros.SetFocus
+     else editar.EditarRegistros.Show();
 end;
 
 end.
